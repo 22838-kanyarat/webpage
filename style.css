@@ -1,0 +1,159 @@
+/* ========================================
+   MODERN STUDENT PORTFOLIO
+   HTML5 + CSS3
+   ======================================== */
+
+/* ---------- Google Font ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap');
+
+
+/* ---------- CSS Variables ---------- */
+
+:root {
+    --primary-dark: #0D47A1;
+    --primary: #1976D2;
+    --primary-light: #42A5F5;
+    --sky: #90CAF9;
+    --pale-blue: #E3F2FD;
+
+    --white: #FFFFFF;
+    --background: #F7FBFF;
+    --text-dark: #17324D;
+    --text: #486581;
+    --text-light: #829AB1;
+
+    --border: #DCEAF7;
+
+    --shadow-sm: 0 8px 24px rgba(25, 118, 210, 0.08);
+    --shadow-md: 0 16px 40px rgba(25, 118, 210, 0.12);
+    --shadow-lg: 0 25px 70px rgba(13, 71, 161, 0.16);
+
+    --radius-sm: 12px;
+    --radius-md: 20px;
+    --radius-lg: 30px;
+
+    --transition: 0.3s ease;
+}
+
+
+/* ---------- Reset ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    color: var(--text-dark);
+    background: var(--background);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    width: min(1120px, calc(100% - 40px));
+    margin: 0 auto;
+}
+
+
+/* ---------- Typography ---------- */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.2;
+    color: var(--text-dark);
+}
+
+h1 {
+    font-size: clamp(3rem, 6vw, 5.4rem);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+h3 {
+    font-size: 1.35rem;
+}
+
+p {
+    color: var(--text);
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+
+/* ---------- Header / Navigation ---------- */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 16px 0;
+    background: rgba(247, 251, 255, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(220, 234, 247, 0.7);
+}
+
+.navbar {
+    min-height: 64px;
+    padding: 10px 14px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    background: rgba(255, 255, 255, 0.88);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: var(--shadow-sm);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    color: var(--primary-dark);
+    white-space: nowrap;
+}
+
+.logo-mark {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+
+    color: var(--white);
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary-light));
+    border-radius: 12px;
