@@ -3,247 +3,421 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="เว็บไซต์ Portfolio ของนักเรียนชั้นมัธยมศึกษาปีที่ 3">
-    <title>My Portfolio | นักเรียน ม.3</title>
+
+    <meta
+        name="description"
+        content="Portfolio ของกันยารัตน์ หล่อธาน นักเรียนชั้นมัธยมศึกษาปีที่ 3"
+    >
+
+    <title>กันยารัตน์ | Student Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
+    <!-- ================= NAVIGATION ================= -->
     <header class="site-header">
-        <nav class="navbar container">
-            <a href="index.html" class="logo">
-                <span class="logo-mark">M</span>
-                <span>My Portfolio</span>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="brand">
+                <span class="brand-symbol">K</span>
+
+                <span class="brand-text">
+                    KANYARAT
+                    <small>STUDENT PORTFOLIO</small>
+                </span>
             </a>
 
-            <div class="nav-links">
+            <div class="nav-menu">
                 <a href="index.html" class="active">หน้าแรก</a>
                 <a href="profile.html">ประวัติส่วนตัว</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
             </div>
+
         </nav>
+
     </header>
+
 
     <main>
 
-        <!-- Hero -->
+        <!-- ================= HERO ================= -->
         <section class="hero">
-            <div class="hero-bg-circle circle-one"></div>
-            <div class="hero-bg-circle circle-two"></div>
 
-            <div class="container hero-grid">
+            <div class="hero-grid-pattern"></div>
 
-                <div class="hero-content fade-up">
+            <div class="hero-circle hero-circle-one"></div>
+            <div class="hero-circle hero-circle-two"></div>
 
-                    <div class="eyebrow">
-                        <span class="status-dot"></span>
-                        STUDENT PORTFOLIO
+            <div class="container hero-layout">
+
+                <!-- LEFT -->
+                <div class="hero-copy">
+
+                    <div class="mini-label">
+                        <span></span>
+                        HELLO, I'M
                     </div>
 
                     <h1>
-                        สวัสดีครับ 👋
-                        <br>
-                        ฉันคือ <span> [กรอกชื่อ]</span>
+                        กันยารัตน์
+                        <strong>หล่อธาน</strong>
                     </h1>
 
-                    <p class="hero-subtitle">
-                        นักเรียนชั้นมัธยมศึกษาปีที่ 3
-                        ที่ชื่นชอบการเรียนรู้สิ่งใหม่ ๆ
-                        และสนุกกับการสร้างสรรค์ผลงาน
+                    <p class="hero-role">
+                        STUDENT • DREAMER • LEARNER
                     </p>
 
-                    <div class="hero-buttons">
-                        <a href="profile.html" class="btn btn-primary">
+                    <p class="hero-description">
+                        สวัสดีค่ะ ฉันชื่อข้าวฟ่าง
+                        เป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3
+                        ที่สนุกกับการเรียนรู้สิ่งใหม่ ๆ
+                        และกำลังค้นหาสิ่งที่ตัวเองชื่นชอบ
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="profile.html" class="button button-primary">
                             รู้จักฉันมากขึ้น
+                            <span>↗</span>
+                        </a>
+
+                        <a href="hobby.html" class="button button-text">
+                            งานอดิเรกของฉัน
                             <span>→</span>
                         </a>
 
-                        <a href="hobby.html" class="btn btn-outline">
-                            ดูงานอดิเรกของฉัน
-                        </a>
                     </div>
 
-                    <div class="hero-stats">
-                        <div>
-                            <strong>03</strong>
-                            <span>ระดับชั้น</span>
-                        </div>
-
-                        <div class="stat-line"></div>
+                    <div class="hero-meta">
 
                         <div>
-                            <strong>∞</strong>
-                            <span>สิ่งที่อยากเรียนรู้</span>
+                            <strong>14</strong>
+                            <span>AGE</span>
                         </div>
-
-                        <div class="stat-line"></div>
 
                         <div>
-                            <strong>01</strong>
-                            <span>Portfolio</span>
+                            <strong>ม.3/2</strong>
+                            <span>CLASS</span>
                         </div>
+
+                        <div>
+                            <strong>CM</strong>
+                            <span>CHIANG MAI</span>
+                        </div>
+
                     </div>
 
                 </div>
 
+
+                <!-- RIGHT -->
                 <div class="hero-visual">
 
-                    <div class="profile-orbit orbit-one"></div>
-                    <div class="profile-orbit orbit-two"></div>
-
-                    <div class="profile-decoration decoration-top">
-                        ✦
+                    <div class="visual-number">
+                        01
                     </div>
 
-                    <div class="profile-decoration decoration-bottom">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+                    <div class="visual-line"></div>
 
-                    <div class="profile-frame">
-                        <div class="profile-image">
+                    <div class="hero-image-wrap">
+
+                        <div class="image-back-shape"></div>
+
+                        <div class="hero-image">
                             <img
-                                src="https://placehold.co/500x600/1976D2/FFFFFF?text=MY+PHOTO"
-                                alt="รูปโปรไฟล์ของฉัน">
+                                src="https://placehold.co/520x650/1976D2/FFFFFF?text=KANYARAT"
+                                alt="รูปโปรไฟล์ของกันยารัตน์ หล่อธาน"
+                            >
                         </div>
+
+                        <div class="image-tag">
+                            <span>✦</span>
+                            NICE TO MEET YOU
+                        </div>
+
                     </div>
 
-                    <div class="floating-card floating-card-top">
-                        <span class="floating-icon">💡</span>
+                    <div class="floating-note">
+                        <span>♫</span>
                         <div>
-                            <strong>Creative Mind</strong>
-                            <small>ชอบสร้างสิ่งใหม่ ๆ</small>
-                        </div>
-                    </div>
-
-                    <div class="floating-card floating-card-bottom">
-                        <span class="floating-icon">🎯</span>
-                        <div>
-                            <strong>My Goal</strong>
-                            <small>เรียนรู้และพัฒนาตัวเอง</small>
+                            <strong>Currently loving</strong>
+                            <small>ฟังเพลง 🎧</small>
                         </div>
                     </div>
 
                 </div>
 
             </div>
+
         </section>
 
-        <!-- Introduction -->
-        <section class="intro-section section">
+
+        <!-- ================= INTRO ================= -->
+        <section class="intro section">
+
             <div class="container">
 
-                <div class="section-heading centered">
-                    <span class="section-label">WELCOME</span>
-                    <h2>ยินดีที่ได้รู้จัก 👋</h2>
-                    <p>
-                        เว็บไซต์เล็ก ๆ ที่รวบรวมเรื่องราวเกี่ยวกับตัวฉัน
-                        การศึกษา งานอดิเรก และสิ่งที่ฉันสนใจ
-                    </p>
-                </div>
-
-                <div class="intro-grid">
-
-                    <article class="intro-card intro-card-main">
-                        <div class="card-number">01</div>
-                        <span class="card-icon">👨‍🎓</span>
-                        <h3>เกี่ยวกับฉัน</h3>
-                        <p>
-                            ฉันเป็นนักเรียนชั้น ม.3 ที่กำลังเรียนรู้
-                            และค้นหาสิ่งที่ตัวเองชอบ
-                            พร้อมเปิดรับประสบการณ์ใหม่ ๆ
-                        </p>
-                        <a href="profile.html" class="text-link">
-                            อ่านเพิ่มเติม →
-                        </a>
-                    </article>
-
-                    <article class="intro-card intro-card-blue">
-                        <div class="card-number">02</div>
-                        <span class="card-icon">📚</span>
-                        <h3>การศึกษา</h3>
-                        <p>
-                            เส้นทางการเรียนรู้ตั้งแต่อดีต
-                            จนถึงปัจจุบัน
-                        </p>
-                        <a href="education.html" class="text-link">
-                            ดูประวัติการศึกษา →
-                        </a>
-                    </article>
-
-                    <article class="intro-card intro-card-light">
-                        <div class="card-number">03</div>
-                        <span class="card-icon">✨</span>
-                        <h3>สิ่งที่ฉันชอบ</h3>
-                        <p>
-                            งานอดิเรก ความสนใจ
-                            และกิจกรรมที่ทำในเวลาว่าง
-                        </p>
-                        <a href="hobby.html" class="text-link">
-                            สำรวจงานอดิเรก →
-                        </a>
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- CTA -->
-        <section class="cta-section">
-            <div class="container">
-                <div class="cta-box">
+                <div class="section-top">
 
                     <div>
-                        <span class="section-label light-label">LET'S CONNECT</span>
-                        <h2>อยากรู้จักฉันมากขึ้นไหม?</h2>
-                        <p>
-                            สามารถดูข้อมูลเพิ่มเติมหรือส่งข้อความมาทักทายกันได้
-                        </p>
+                        <span class="section-kicker">
+                            A LITTLE ABOUT ME
+                        </span>
+
+                        <h2>
+                            เรียนรู้
+                            <span>เติบโต</span>
+                            และค้นหาตัวเอง
+                        </h2>
                     </div>
 
-                    <a href="contact.html" class="btn btn-white">
-                        ติดต่อฉัน →
+                    <p>
+                        Portfolio นี้เป็นพื้นที่เล็ก ๆ
+                        ที่รวบรวมเรื่องราวเกี่ยวกับตัวฉัน
+                        ตั้งแต่การเรียน ความสนใจ
+                        ไปจนถึงสิ่งที่ชอบทำในเวลาว่าง
+                    </p>
+
+                </div>
+
+
+                <div class="intro-bento">
+
+                    <article class="bento-main">
+
+                        <span class="bento-index">01</span>
+
+                        <div class="bento-icon">
+                            ♡
+                        </div>
+
+                        <h3>
+                            สิ่งที่สำคัญสำหรับฉัน
+                        </h3>
+
+                        <p>
+                            ฉันเชื่อว่าการเรียนรู้ไม่ได้มีแค่
+                            ในห้องเรียน แต่เกิดขึ้นจากทุกสิ่ง
+                            ที่เราได้ลองทำและพบเจอ
+                        </p>
+
+                        <a href="profile.html">
+                            อ่านเรื่องราวของฉัน →
+                        </a>
+
+                    </article>
+
+
+                    <article class="bento-small blue-box">
+
+                        <span class="bento-index">02</span>
+
+                        <div class="bento-icon">
+                            📚
+                        </div>
+
+                        <h3>Education</h3>
+
+                        <p>
+                            นักเรียน ม.3/2
+                        </p>
+
+                        <a href="education.html">
+                            ดูการศึกษา →
+                        </a>
+
+                    </article>
+
+
+                    <article class="bento-small light-box">
+
+                        <span class="bento-index">03</span>
+
+                        <div class="bento-icon">
+                            🎧
+                        </div>
+
+                        <h3>Favorite</h3>
+
+                        <p>
+                            ฟังเพลง
+                        </p>
+
+                        <a href="hobby.html">
+                            ดูงานอดิเรก →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HIGHLIGHT ================= -->
+        <section class="highlight section">
+
+            <div class="container highlight-layout">
+
+                <div class="highlight-title">
+
+                    <span class="section-kicker">
+                        QUICK FACTS
+                    </span>
+
+                    <h2>
+                        More about
+                        <span>me.</span>
+                    </h2>
+
+                    <p>
+                        ข้อมูลเล็ก ๆ ที่ช่วยให้รู้จักฉัน
+                        มากขึ้นอีกนิด
+                    </p>
+
+                </div>
+
+
+                <div class="fact-list">
+
+                    <div class="fact-item">
+                        <span class="fact-icon">01</span>
+
+                        <div>
+                            <small>ชื่อเล่น</small>
+                            <strong>ข้าวฟ่าง</strong>
+                        </div>
+                    </div>
+
+
+                    <div class="fact-item">
+                        <span class="fact-icon">02</span>
+
+                        <div>
+                            <small>วันเกิด</small>
+                            <strong>10/09/2554</strong>
+                        </div>
+                    </div>
+
+
+                    <div class="fact-item">
+                        <span class="fact-icon">03</span>
+
+                        <div>
+                            <small>วิชาที่ชอบ</small>
+                            <strong>ภาษาอังกฤษ</strong>
+                        </div>
+                    </div>
+
+
+                    <div class="fact-item">
+                        <span class="fact-icon">04</span>
+
+                        <div>
+                            <small>จังหวัด</small>
+                            <strong>เชียงใหม่</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+        <section class="home-cta">
+
+            <div class="container">
+
+                <div class="cta-panel">
+
+                    <div>
+                        <span class="section-kicker light">
+                            LET'S CONNECT
+                        </span>
+
+                        <h2>
+                            ขอบคุณที่แวะเข้ามาชม
+                            Portfolio ของฉัน
+                        </h2>
+                    </div>
+
+                    <a href="contact.html" class="button button-white">
+                        ติดต่อฉัน
+                        <span>↗</span>
                     </a>
 
                 </div>
+
             </div>
+
         </section>
 
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
 
-            <div>
-                <a href="index.html" class="footer-logo">
-                    My Portfolio
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="brand footer-brand-link">
+
+                    <span class="brand-symbol">K</span>
+
+                    <span class="brand-text">
+                        KANYARAT
+                        <small>STUDENT PORTFOLIO</small>
+                    </span>
+
                 </a>
+
                 <p>
-                    Portfolio ของนักเรียนชั้นมัธยมศึกษาปีที่ 3
+                    Portfolio ของกันยารัตน์ หล่อธาน
+                    นักเรียนชั้นมัธยมศึกษาปีที่ 3
                 </p>
+
             </div>
 
-            <div class="footer-links">
+
+            <div class="footer-navigation">
+
+                <span>NAVIGATION</span>
+
                 <a href="index.html">หน้าแรก</a>
                 <a href="profile.html">ประวัติส่วนตัว</a>
                 <a href="education.html">การศึกษา</a>
                 <a href="hobby.html">งานอดิเรก</a>
                 <a href="contact.html">ติดต่อ</a>
+
             </div>
 
         </div>
 
-        <div class="container copyright">
-            © 2026 [กรอกชื่อ] • Student Portfolio
+
+        <div class="container footer-bottom">
+
+            <span>
+                © 2026 Kanyarat Lohthan
+            </span>
+
+            <span>
+                Made for Computer Project
+            </span>
+
         </div>
+
     </footer>
 
 </body>
