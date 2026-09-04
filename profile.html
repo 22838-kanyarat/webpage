@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ประวัติส่วนตัวของนักเรียน">
-    <title>My Portfolio | ประวัติส่วนตัว</title>
+    <title>ประวัติส่วนตัว | My Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navigation -->
     <header class="site-header">
         <nav class="navbar container">
             <a href="index.html" class="logo">
@@ -29,88 +31,76 @@
 
     <main>
 
+        <!-- Page Hero -->
         <section class="page-hero">
-            <div class="container page-hero-content">
-                <span class="eyebrow">ABOUT ME</span>
-                <h1>ประวัติ<span>ส่วนตัว</span></h1>
+            <div class="container">
+                <span class="section-label">ABOUT ME</span>
+                <h1>ประวัติส่วนตัว</h1>
                 <p>
-                    มาทำความรู้จักกับตัวฉัน
-                    และเรื่องราวที่ทำให้ฉันเป็นฉันในวันนี้
+                    ทำความรู้จักกับฉันให้มากขึ้น
                 </p>
             </div>
         </section>
 
-        <section class="profile-section section-padding">
+        <!-- Profile -->
+        <section class="section profile-section">
             <div class="container">
 
                 <div class="profile-layout">
 
-                    <div class="profile-photo-area">
-                        <div class="photo-decoration"></div>
-
-                        <div class="profile-photo-card">
-                            <img
-                                src="https://placehold.co/600x700/42A5F5/FFFFFF?text=Profile+Photo"
-                                alt="รูปโปรไฟล์ของฉัน"
-                            >
-                        </div>
-
-                        <div class="photo-caption">
-                            <span>✦</span>
-                            <div>
-                                <strong>Nice to meet you!</strong>
-                                <small>Welcome to my profile</small>
-                            </div>
-                        </div>
+                    <div class="profile-large-image">
+                        <div class="image-accent"></div>
+                        <img
+                            src="https://placehold.co/550x650/42A5F5/FFFFFF?text=PROFILE"
+                            alt="รูปโปรไฟล์ของฉัน">
                     </div>
 
-                    <div class="profile-information">
+                    <div class="profile-info">
 
                         <span class="section-label">WHO AM I?</span>
 
                         <h2>
-                            สวัสดี! ฉันคือ
-                            <span>[กรอกชื่อ]</span>
+                            สวัสดีครับ
+                            <br>
+                            ฉันชื่อ <span>[กรอกชื่อ]</span>
                         </h2>
 
-                        <p class="lead-text">
+                        <p class="profile-description">
                             ฉันเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 3
-                            ที่กำลังเรียนรู้สิ่งใหม่ ๆ
-                            และค้นหาสิ่งที่ตัวเองชอบ
+                            ที่มีความสนใจในการเรียนรู้สิ่งใหม่ ๆ
+                            และชอบใช้เวลาว่างทำกิจกรรมที่ตัวเองสนใจ
                         </p>
 
                         <div class="info-grid">
 
-                            <div class="info-box">
-                                <span class="info-icon">👤</span>
-                                <div>
-                                    <small>ชื่อเล่น</small>
-                                    <strong>[กรอกชื่อเล่น]</strong>
-                                </div>
+                            <div class="info-item">
+                                <span>ชื่อเล่น</span>
+                                <strong>[กรอกชื่อเล่น]</strong>
                             </div>
 
-                            <div class="info-box">
-                                <span class="info-icon">🎂</span>
-                                <div>
-                                    <small>อายุ</small>
-                                    <strong>[กรอกอายุ] ปี</strong>
-                                </div>
+                            <div class="info-item">
+                                <span>อายุ</span>
+                                <strong>[กรอกอายุ] ปี</strong>
                             </div>
 
-                            <div class="info-box">
-                                <span class="info-icon">📅</span>
-                                <div>
-                                    <small>วันเกิด</small>
-                                    <strong>[กรอกวันเกิด]</strong>
-                                </div>
+                            <div class="info-item">
+                                <span>วันเกิด</span>
+                                <strong>[กรอกวันเกิด]</strong>
                             </div>
 
-                            <div class="info-box">
-                                <span class="info-icon">📍</span>
-                                <div>
-                                    <small>จังหวัด</small>
-                                    <strong>[กรอกจังหวัด]</strong>
-                                </div>
+                            <div class="info-item">
+                                <span>จังหวัด</span>
+                                <strong>[กรอกจังหวัด]</strong>
+                            </div>
+
+                            <div class="info-item">
+                                <span>โรงเรียน</span>
+                                <strong>[กรอกชื่อโรงเรียน]</strong>
+                            </div>
+
+                            <div class="info-item">
+                                <span>ระดับชั้น</span>
+                                <strong>ม.3/[กรอกห้อง]</strong>
                             </div>
 
                         </div>
@@ -122,62 +112,37 @@
             </div>
         </section>
 
-        <section class="about-section section-padding">
-            <div class="container">
+        <!-- About -->
+        <section class="section about-section">
+            <div class="container about-grid">
 
-                <div class="about-card">
-
-                    <div class="about-heading">
-                        <span class="about-number">01</span>
-                        <div>
-                            <span class="section-label">MY STORY</span>
-                            <h2>เกี่ยวกับฉัน</h2>
-                        </div>
-                    </div>
-
-                    <div class="about-text">
-                        <p>
-                            ฉันเป็นคนที่ชอบเรียนรู้สิ่งใหม่ ๆ
-                            และสนุกกับการได้ลองทำสิ่งที่ไม่เคยทำมาก่อน
-                            ฉันเชื่อว่าความผิดพลาดเป็นส่วนหนึ่งของการเรียนรู้
-                            และทุกประสบการณ์สามารถนำมาพัฒนาตัวเองได้
-                        </p>
-
-                        <p>
-                            ในอนาคตฉันอยากพัฒนาทักษะด้านเทคโนโลยี
-                            และนำความรู้ที่เรียนมาใช้สร้างผลงานที่มีประโยชน์
-                            รวมถึงค้นหาความสามารถของตัวเองให้เจอมากขึ้น
-                        </p>
-                    </div>
-
+                <div>
+                    <span class="section-label">MY STORY</span>
+                    <h2>เกี่ยวกับฉัน</h2>
                 </div>
 
-                <div class="mini-highlights">
+                <div class="about-text">
+                    <p>
+                        ฉันเป็นคนที่ชอบเรียนรู้และทดลองสิ่งใหม่ ๆ
+                        เพราะเชื่อว่าการเรียนรู้ไม่ได้เกิดขึ้นเฉพาะ
+                        ในห้องเรียนเท่านั้น
+                    </p>
 
-                    <div class="mini-highlight">
-                        <span>🎯</span>
-                        <div>
-                            <strong>เป้าหมาย</strong>
-                            <p>พัฒนาตัวเองให้ดีขึ้นทุกวัน</p>
-                        </div>
+                    <p>
+                        ในเวลาว่างฉันมักจะใช้เวลาไปกับ
+                        [กรอกงานอดิเรก] และสนใจเรื่อง
+                        [กรอกความสนใจ]
+                        ซึ่งเป็นสิ่งที่ช่วยให้ฉันได้พัฒนาทักษะ
+                        และค้นพบตัวเองมากขึ้น
+                    </p>
+
+                    <div class="quote-box">
+                        <span>“</span>
+                        <p>
+                            ทุกวันคือโอกาสใหม่ในการเรียนรู้
+                            และพัฒนาตัวเองให้ดีขึ้น
+                        </p>
                     </div>
-
-                    <div class="mini-highlight">
-                        <span>💭</span>
-                        <div>
-                            <strong>แนวคิด</strong>
-                            <p>เรียนรู้จากทุกประสบการณ์</p>
-                        </div>
-                    </div>
-
-                    <div class="mini-highlight">
-                        <span>🚀</span>
-                        <div>
-                            <strong>ความฝัน</strong>
-                            <p>สร้างผลงานที่ตัวเองภูมิใจ</p>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
@@ -185,15 +150,15 @@
 
     </main>
 
-    <footer class="site-footer">
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container footer-content">
 
-            <div class="footer-brand">
-                <div class="footer-logo">
-                    <span class="logo-mark">M</span>
-                    <span>My Portfolio</span>
-                </div>
-                <p>เว็บไซต์ Portfolio ของนักเรียนชั้นมัธยมศึกษาปีที่ 3</p>
+            <div>
+                <a href="index.html" class="footer-logo">
+                    My Portfolio
+                </a>
+                <p>Portfolio ของนักเรียนชั้นมัธยมศึกษาปีที่ 3</p>
             </div>
 
             <div class="footer-links">
@@ -204,10 +169,10 @@
                 <a href="contact.html">ติดต่อ</a>
             </div>
 
-            <div class="footer-bottom">
-                <p>© 2026 [กรอกชื่อ] • Student Portfolio</p>
-            </div>
+        </div>
 
+        <div class="container copyright">
+            © 2026 [กรอกชื่อ] • Student Portfolio
         </div>
     </footer>
 
